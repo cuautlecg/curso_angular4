@@ -1,0 +1,5 @@
+<div class="container">
+    <label for="name">Nombre y apellido</label>
+    <input type="text" name="name" class="form-control" placeholder="Ingresa tu nombre y apellido" [(ngModel)]="nombre">
+    <button type="submit" class="btn btn-warning" *ngIf="nombre">Enviar</button>
+</div>
